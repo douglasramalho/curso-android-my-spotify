@@ -1,16 +1,10 @@
 plugins {
-    alias libs.plugins.android.application
-    alias libs.plugins.android.kotlin
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
 }
 
 android {
-    namespace 'com.example.myspotify'
-
-    defaultConfig {
-        applicationId "com.example.myspotify"
-        versionCode 1
-        versionName "1.0"
-    }
+    namespace 'com.example.ui'
 
     buildTypes {
         release {
@@ -21,9 +15,6 @@ android {
 }
 
 dependencies {
-
-    implementation(project(":core:ui"))
-    implementation(project(":feature:account"))
 
     implementation libs.androidx.ktx
     implementation libs.androidx.lifecycle

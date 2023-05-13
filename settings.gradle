@@ -14,3 +14,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "MySpotify"
 include ':app'
+include ':feature:account'
+include ':core:ui'

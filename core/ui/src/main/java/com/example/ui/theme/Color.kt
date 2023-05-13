@@ -1,4 +1,4 @@
-package com.example.myspotify.ui.theme
+package com.example.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
@@ -11,3 +11,5 @@ val GreenGrey40 = Color(0xFF516351)
 val BlueLight40 = Color(0xFF39656d)
 
 val Black = Color(0xFF1a1c19)
+
+val BlackLight = Color(0xFF1E1F24)
